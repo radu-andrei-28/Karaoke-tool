@@ -26,14 +26,4 @@ $(document).ready(function() {
         $('.quill-wrapper').tooltip('destroy');
         clearTimeout(tooltipTimer);
     });
-//    var users = ['Asana', 'Blahsay', 'Intuit', 'Lever', 'MerchantCircle', 'RelateIQ', 'Respondly', 'Salesforce', 'ThemeXpert', 'Vox Media'];
-//    $('#users-container img').each(function(i, elem) {
-//        var index = Math.floor(Math.random() * users.length);
-//        var user = users[index];
-//        users.splice(index, 1);
-//        $(elem).attr({
-//            src: '/images/users/' + (user.toLowerCase().replace(/\s/g, '')) + '.png',
-//            alt: user
-//        });
-//    });
 });
